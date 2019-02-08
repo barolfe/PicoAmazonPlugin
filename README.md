@@ -4,6 +4,7 @@ In addition, you'll need to set up your DB parameters in the amazon-config.php f
 
 You can use the following SQL code to create the appropriate table structure:
 
+```
 --
 -- Table structure for table `AmazonProducts`
 --
@@ -23,6 +24,7 @@ CREATE TABLE `AmazonProducts` (
 ALTER TABLE `AmazonProducts`
   ADD PRIMARY KEY (`prod_id`);
 COMMIT;
+```
 
 To see how to use the plugin within your pages, see the "example.md" file included. 
 
