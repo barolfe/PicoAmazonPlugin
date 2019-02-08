@@ -1,0 +1,9 @@
+<?php
+
+if(!defined('AZDBUSER')) define('AZDBUSER','YourDBUserName');
+if(!defined('AZDBPWD')) define('AZDBPWD','YourDBPassword');
+if(!defined('AZDBHOST')) define('AZDBHOST','localhost');
+if(!defined('AZDBNAME')) define('AZDBNAME','YourDBName');
+if(!defined('AZPRIVATEKEY')) define('AZPRIVATEKEY','YourAmaazonAPIPrivateKey');
+if(!defined('AZPUBLICKEY')) define('AZPUBLICKEY','YourAmaazonAPIPublicKey');
+?>
